@@ -1,0 +1,36 @@
+.searchPokemon{
+    display: flex;
+    justify-content: center;
+}
+
+.inputPokemon{
+    border-radius: 5px;
+    padding: 10px;
+    width: 400px;
+    box-shadow: 5px 5px 5px black;
+    
+}
+.inputPokemon:hover{
+    opacity: 0.5;
+}
+
+.inputPokemon:focus{
+    margin: 0;
+}
+
+.serchDisplay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.buttonSearch{
+    border-radius: 50%;
+    padding: 5px;
+    background-color: white;
+    box-shadow: 3px 3px 5px black;
+}
+.buttonSearch:hover{
+    opacity: 0.5;
+}
